@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="MyFoodMenu" size="6.000000 7.500000" />
+    <ImageTarget name="coffee" size="2.000000 1.333333" />
+    <ImageTarget name="burger" size="2.000000 1.591177" />
+    <ImageTarget name="pizza" size="2.000000 1.350000" />
+  </Tracking>
+</QCARConfig>
