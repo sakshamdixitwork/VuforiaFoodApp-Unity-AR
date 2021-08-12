@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -34,5 +35,12 @@ public class UIManager : MonoBehaviour
         registerUI.SetActive(true);
         loginUI.SetActive(false);
         mainMenuUI.SetActive(false);   
+    }
+
+    public void backButton()
+    {
+        mainMenuUI.SetActive(true);
+        loginUI.SetActive(false);
+        registerUI.SetActive(false);
     }
 }

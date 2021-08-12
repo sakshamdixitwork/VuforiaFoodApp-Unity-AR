@@ -54,7 +54,9 @@ public class PlayfabManager : MonoBehaviour
     void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
         ClearMessage();
-        successfulMessage.text = "Registered and Logged In";
+        successfulMessage.text = "Registered";
+        //SceneManager.LoadScene("AR");
+        
     }
 
     public void LoginButton()
